@@ -1,7 +1,7 @@
 if [[ -n $SSH_CONNECTION ]]; then
   export PS1='%m:%3~$(git_info_for_prompt)%# '
 else
-  export export PS1=$'\e[0;36m%3~$(git_info_for_prompt)%#\e[0;0m '
+  export export PS1=$'%{\e[0;36m%}%3~$(git_info_for_prompt)%#%{\e[0;0m%} '
 fi
 
 export EDITOR='vi'
