@@ -33,3 +33,6 @@ alias pg='postgres -D /usr/local/var/postgres'
 
 # commands starting with % for pasting from web
 alias %=' '
+
+# zsh globbing is causing me rake argument problems
+alias rake='noglob rake'
