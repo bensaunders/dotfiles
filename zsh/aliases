@@ -18,7 +18,7 @@ alias gs='git status'
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias gll="git pull"
 alias gsh="git push"
-alias gl="git log"
+alias gl="git log --graph"
 
 # rails
 alias sc='script/console'
