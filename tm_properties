@@ -1,2 +1,2 @@
 myExtraFindExcludes   = "log,vendor,tmp"
-excludeInFolderSearch = "{$excludeInFolderSearch,$myExtraExcludes}"
+excludeInFolderSearch = "{$excludeInFolderSearch,$myExtraFindExcludes}"
