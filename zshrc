@@ -9,3 +9,4 @@
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH" # Add Postgres.app useful binaries
