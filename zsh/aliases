@@ -9,7 +9,7 @@ alias la='ls -A'
 
 # git
 alias gd='git diff'
-alias ga='git add'
+alias ga='git add --all'
 alias gc='git commit'
 alias gca='git commit -a'
 alias gco='git checkout'
