@@ -1,2 +1,3 @@
 myExtraFindExcludes   = "log,vendor,tmp,*.sqlite3,solr"
 excludeInFolderSearch = "{$excludeInFolderSearch,$myExtraFindExcludes}"
+excludeInFileChooser = "{$excludeInFolderSearch,$myExtraFindExcludes}"
